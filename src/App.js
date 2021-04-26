@@ -1,10 +1,17 @@
 import "./App.css";
+import Header from "./Header";
+import NavigationMenu from "./NavigationMenu";
+import Footer from "./Footer";
+import Content from "./Content";
 
 function App() {
   return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
-    </div>
+    <body>
+      <Header />
+      <NavigationMenu />
+      <Content />
+      <Footer />
+    </body>
   );
 }
 
