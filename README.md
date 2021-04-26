@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Link
 
-[My Blog with React](infallible-northcutt-d4a151)
+[My Blog with React](https://infallible-northcutt-d4a151.netlify.app/)
 
 ## Available Scripts
 
