@@ -1,5 +1,5 @@
 const ItemTitle = (props) => {
-  return <h2>Title</h2>;
+  return <h2>{props.title}</h2>;
 };
 
 export default ItemTitle;

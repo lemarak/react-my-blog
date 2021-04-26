@@ -3,13 +3,13 @@ import ItemSubtitle from "./ItemSubtitle";
 import ItemPicture from "./ItemPicture";
 import ItemDescription from "./ItemDescription";
 
-const Item = () => {
+const Item = (props) => {
   return (
     <article>
-      <ItemTitle />
-      <ItemSubtitle />
-      <ItemPicture />
-      <ItemDescription />
+      <ItemTitle title={`${props.title}`} />
+      <ItemSubtitle subtitle={`${props.subtitle}`} />
+      <ItemPicture picture={props.picture} />
+      <ItemDescription description={`${props.description}`} />
     </article>
   );
 };
