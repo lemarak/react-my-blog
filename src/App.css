@@ -118,13 +118,26 @@ a:hover {
   .container {
     width: 100%;
   }
-}
-
-@media (max-width: 760px) {
-  .jobs {
-    width: 100%;
+  header {
+    height: 120px;
+    justify-content: space-between;
+    padding: 20px;
   }
-  .job {
-    width: 90%;
+  .content {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  .baseline {
+    font-size: 18px;
+  }
+  aside,
+  article {
+    width: 100%;
   }
 }
