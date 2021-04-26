@@ -7,10 +7,12 @@ import Content from "./Content";
 function App() {
   return (
     <body>
-      <Header />
-      <NavigationMenu />
-      <Content />
-      <Footer />
+      <div className="container">
+        <Header />
+        <NavigationMenu />
+        <Content />
+        <Footer />
+      </div>
     </body>
   );
 }

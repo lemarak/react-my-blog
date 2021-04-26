@@ -1,5 +1,5 @@
 const ItemDescription = (props) => {
-  return <p>Description</p>;
+  return <p className="description">Description</p>;
 };
 
 export default ItemDescription;

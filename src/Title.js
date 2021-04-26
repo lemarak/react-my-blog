@@ -1,5 +1,5 @@
 const Title = (props) => {
-  return <div className="title">{props.title}</div>;
+  return <h1 className="title">{props.title}</h1>;
 };
 
 export default Title;
